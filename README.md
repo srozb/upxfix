@@ -10,7 +10,7 @@ This project aims to create a tool that can fix the smashed UPX headers of malic
 5. [References](#credits-and-references)
 
 ## Introduction
-The UPX-Fix project provides a tool that can repair the headers of ELF binaries with zeroed UPX headers. This can be particularly useful when analyzing malware samples, as many malicious samples are intentionally damaged to hinder unpacking.
+The UPX-Fix project provides a tool that can repair the headers of ELF binaries with zeroed UPX headers. This can be particularly useful when analyzing malware samples, as many malicious samples (for example **Mozi** malware) are intentionally damaged to hinder unpacking.
 
 ## Requirements
 To use this project, you will need to have Nim lang installed on your system or download precompiled executables. This can be done by following the instructions on the [Nim website](https://nim-lang.org/install.html).
